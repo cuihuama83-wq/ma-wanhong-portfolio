@@ -5,5 +5,6 @@ import react from '@vitejs/plugin-react'
 // project-scoped GitHub Pages URL.
 export default defineConfig({
   base: './',
+  publicDir: 'site-public',
   plugins: [react()],
 })

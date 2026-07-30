@@ -3,9 +3,10 @@ import { createRoot } from 'react-dom/client'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ArrowDownRight, ArrowUpRight, ArrowUp, Mail, Phone, Sparkles, PenTool, ChartNoAxesCombined, Layers3, Menu, X } from 'lucide-react'
+import { imageAssets } from './imageAssets'
 import './styles.css'
 
-const I = (path) => `${import.meta.env.BASE_URL}images/optimized/${path.replace(/\.(png|jpe?g)$/i, '.webp')}`
+const I = (path) => `${import.meta.env.BASE_URL}images/site/${imageAssets[path]}`
 const covers = {
   ai: `${I('艾氪智能亮相世界金融论坛：产业 AI 正在走向全球产业舞台.png')}`,
   gongfeng: `${I('工程案例  光峰工程投影助力《如梦大同》，跨越千年入梦.jpg')}`,
