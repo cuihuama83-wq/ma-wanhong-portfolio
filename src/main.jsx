@@ -167,7 +167,7 @@ function App() {
 
     <main>
       <section className="hero" id="home">
-        <video className="hero-video" autoPlay muted loop playsInline poster={covers.shantou}><source src="https://videos.pexels.com/video-files/856309/856309-hd_1920_1080_30fps.mp4" type="video/mp4" /></video>
+        <video className="hero-video" autoPlay muted loop playsInline poster={covers.shantou}><source src={`${import.meta.env.BASE_URL}video/hero-bg.mp4`} type="video/mp4" /></video>
         <div className="hero-shade" />
         <div className="hero-grid" />
         <div className="hero-content shell">
