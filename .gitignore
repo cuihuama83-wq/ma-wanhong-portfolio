@@ -3,3 +3,4 @@ dist/
 tmp-supplement/
 tmp-supplement.doc
 .DS_Store
+.media-backup/
